@@ -1,0 +1,112 @@
+body{
+background-image: url(sony.jpg) ;
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+overflow: hidden;
+}
+
+
+header{
+    text-align: justify;
+    border: 2px solid blue;
+    background: rgba(155, 155, 155, 1.5);
+    background-color: rgba(6, 127, 175, 0.274);
+    font-family: "play";
+    color: white;
+    font-size: 25px;
+
+}
+
+
+.img1{
+    position: absolute;
+    float: right;
+    width: 80px;
+    height: 80px;
+}
+
+@font-face{
+    font-family: 'play';
+    src: url(zrnic\ rg.ttf) format("opentype"),url(zrnic\ rg.ttf)
+    format("truetype");
+    font-weight: normal;
+    font-style: normal; 
+}
+
+
+
+footer{
+   flex-wrap: wrap;
+   position: fixed;
+   bottom: 5px;
+   right: 5px;
+   text-align: right;
+   color: white;
+   font-size: small;
+
+}
+
+iframe{
+   align-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 260px;
+    background-color: rgba(112, 237, 253, 0.596);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    background-color: black;
+    color: blue;
+}
+
+input{
+    border-radius: 20px;
+    border: none;
+}
+
+.container{
+    height: 55vh;
+    position: relative;
+}
+
+.elemento{
+    position: absolute;
+    left: 450px;
+    top: 8px;
+}
+
+.texto{
+    border: 2px solid blue;
+    background-color: rgba(6, 127, 175, 0.274);
+    text-align: left;
+    font-family: "play";
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    bottom: 330px;
+    position: absolute;
+    right: 850px;
+    text-shadow: hsla(239, 100%, 50%, 0.904) 2px 2px;
+    letter-spacing: 2px
+
+}
+
+.botao{
+    position: fixed;
+    bottom: 50px;
+    margin-left: 30px;
+}
+
+
